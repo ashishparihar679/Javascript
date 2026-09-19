@@ -1,0 +1,15 @@
+Indentifiers
+1. it should not start with number
+2. it should be alpha-numeric
+3.special character are not allow expect (_,$)
+4.keywords are not allow
+5.js is case sensitive language
+
+DATA TYPES
+1. string
+2. number=>decimal/nondecimal(16 digit)
+3. BigInt => 16 digits
+4. Boolean
+5. Undefined
+6. Null 
+7. Object
