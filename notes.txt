@@ -13,3 +13,4 @@ DATA TYPES
 5. Undefined
 6. Null 
 7. Object
+
