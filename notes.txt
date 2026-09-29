@@ -14,3 +14,5 @@ DATA TYPES
 6. Null 
 7. Object
 
+
+imp =company tech piramid come in december
