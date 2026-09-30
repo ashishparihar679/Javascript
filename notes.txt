@@ -16,3 +16,30 @@ DATA TYPES
 
 
 imp =company tech piramid come in december
+
+function imp
+
+defaul function parameter = default parameter are use when we are not passing any value or argumnet during the function call,defaul parameter help store the value if the valueis not given
+2. default parameter will be having the lest praority if the argumnet are passed 
+3 default parameter must be given from second parameter  because
+if you givenor pass default parameter as first parameter during the function call if we pass the argumnet the value will be not store second parameter and it will be orveride the parameter
+function sum(a=10 , b) {
+    console.log(a+b)
+}
+sum(10,20)
+4.if you dont pass any default parameter and if there are only two parameter during the function call if we store only one value for the first parameter then if we some arthmentic operation we will get the output as = NaN (not a number)
+
+function sum(a , b=5) {
+    console.log(a+b)
+    // 15 + Undefined
+}
+sum(10) // NaN
+====================================================
+suma(10,20)
+function suma(a , b) {
+    console.log(a+b)
+}
+in the above example the function is been called before definting the function and will get the output as expected because here be are using funtion declatoin so 
+* function declatoin can support hosting or function hosting can be done using function declatoin
+2.
+
