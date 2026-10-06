@@ -135,3 +135,64 @@ let Names = ["Rahul", "Rohit", "Amit", "Neha"];
 // console.log(village.concat(Names, [20, 30, 19]));
 
 // console.log(Names);
+
+// ? 8. slice()
+
+let Names1 = ["Rahul", "Rohit", "Amit", "Neha","anshu","ajay","anil"];
+
+// console.log(Names1);
+// let a = Names1.slice(0,2)
+// let b = Names1.slice(-1,-3)
+// console.log(a); // [ 'Rahul', 'Rohit' ]
+// console.log(b); // []
+
+
+// ? 9. splice()
+//  it removes the elements from the existing array
+// let remove = Names1.splice(2,4)
+// console.log(Names1); // [ 'Rahul', 'Rohit', 'anil' ]
+
+// ? 10. reverse()
+ 
+// console.log(Names1.reverse() ); 
+//[
+//   'anil',  'ajay',
+//   'anshu', 'Neha',
+//   'Amit',  'Rohit',
+//   'Rahul'
+// ]
+
+// for (let i = 0; i < Names1.length; i++) {
+//     console.log(Names1[i])
+// }
+
+// // 11. map() :- it will return the array
+// let res = Names1.map((items)=>{
+//      console.log(items)
+//     })
+//     console.log(typeof res) // object
+    
+//     // 12. foreach() :- it will not return the array
+//     let res2 = Names1.forEach((items)=>{
+//         console.log(items)
+//     })
+//     console.log(typeof res2) //undefined
+
+// // ? filter() - it will iterate through the array based on condition
+// let nums = [1,2,3,4,5,6]
+
+// let evenNums = nums.filter((items)=>{
+//     return items % 2 === 0
+// })
+// console.log(evenNums)  // [ 2, 4, 6 ]
+
+
+
+// ? reduce()-
+let num = [1,2,3,4]
+let sum = num.reduce((acc,currVal)=>{
+    return acc + currVal
+})
+console.log(sum)
+
+
