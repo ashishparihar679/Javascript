@@ -24,6 +24,8 @@ console.log(place.trimEnd())
 // ? trimend()-
 
 // 10. split it will return the array []  of string element
+// 10. split it will return the array []  of string element
+// 10. split it will return the array []  of string element
 
 let personal = "My name is bhavesh i'm 20 years old"
 console.log(personal.split(" ",3)) // [ 'My', 'name', 'is' ]
