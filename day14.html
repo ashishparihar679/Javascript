@@ -18,12 +18,16 @@
     <script>
       let addData = () => {
         let userResponse = confirm("DO YOU WANT TO CONTINUE");
-        console.log(userResponse);
+        // console.log(userResponse);
+        if (userResponse) {
+          UserName = prompt("ENTER THE NAME : ");
+          age = +prompt("ENTER THE AGE : ");
+        }
 
         if (userResponse) {
           // add the data in local storage if condition is true
-          localStorage.setItem("username", "mohan");
-          localStorage.setItem("age", 45);
+          localStorage.setItem("username", UserName);
+          localStorage.setItem("age", age);
           console.log("DATA ADDED SUCESSFULLY");
         } else {
           console.log("DATA not found");
@@ -45,6 +49,16 @@
         } else {
           console.log("DATA not removed");
         }
+      };
+    </script>
+    <hr />
+    <!--  prompt -->
+    <button onclick="display()">DISPLAY</button>
+
+    <script>
+      display = () => {
+        let data = prompt("enter the data");
+        console.log(data, typeof data);
       };
     </script>
   </body>

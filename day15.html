@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- DOM (Document Object Model) -->
+
+    <h1 onclick="change()" id="headEle">PYSPIDERS</h1>
+
+    <script>
+      function change() {
+        // Fetch the HTML element using getElementById()
+        let headEle = document.getElementById("headEle");
+
+        // Access the HTML element in the console
+        console.log(headEle);
+
+        // Access the text content of the HTML element in the console
+        console.log(headEle.textContent);
+
+        // Change the text color of the HTML element using JavaScript
+        headEle.style.color = "orange";
+      }
+    </script>
+  </body>
+</html>
