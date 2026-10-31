@@ -1,4 +1,4 @@
-data =[
+const data =[
   {
     "id": 1,
     "name": "Priya",
