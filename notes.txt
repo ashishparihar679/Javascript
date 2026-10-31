@@ -43,3 +43,4 @@ in the above example the function is been called before definting the function a
 * function declatoin can support hosting or function hosting can be done using function declatoin
 2.
 
+asignment : 

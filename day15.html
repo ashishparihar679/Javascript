@@ -23,6 +23,68 @@
 
         // Change the text color of the HTML element using JavaScript
         headEle.style.color = "orange";
+
+        // changing the content
+        headEle.textContent = "JSPIDER | BTM";
+      }
+    </script>
+    <hr />
+    <!-- value -->
+    <input type="text" id="inpEle" placeholder="Username" />
+    <button onclick="getUserdata()">Get data</button>
+    <h1>USERNAME ENTER BY USER : <strong id="resEle"></strong></h1>
+    <script>
+      function getUserdata() {
+        // fetching the input element
+        let Username = document.getElementById("inpEle");
+        // accessing the value of input element
+        console.log(Username.value);
+        let userName = Username.value;
+        let result = document.getElementById("resEle");
+
+        result.textContent = userName;
+      }
+    </script>
+    <textarea
+      name=""
+      id="feedEle"
+      cols="30"
+      rows="10"
+      placeholder="feedback"
+    ></textarea>
+    <h1>FEEDBACK : <span id="restext"></span></h1>
+    <button onclick="showdata()">Display</button>
+
+    <script>
+      function showdata() {
+        let textarea = document.getElementById("feedEle");
+        let restext = document.getElementById("restext");
+        let textshow = textarea.value;
+        // console.log(textres)
+        restext.textContent = textshow;
+      }
+    </script>
+
+    <hr />
+
+    <div id="main"> <h1>hello</h1></div>
+    <button onclick="addContent()">ADD Content</button>
+
+    <style>
+      #main{
+        height: 300px;
+        width: 300px;
+        border: 3px solid yellow;
+      }
+    </style>
+    <script>
+      function addContent() {
+        let divEle = document.getElementById("main");
+        console.log(divEle);
+
+        divEle.innerHTML = `
+        <h1>PYSPIDERSS</h1>
+        `
       }
     </script>
   </body>
